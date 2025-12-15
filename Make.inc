@@ -11,8 +11,8 @@
 #
 # for solaris
 #
-# CC = gcc
-  CC = /usr/lang-4.0/bin/cc
+   CC = gcc
+#  CC = /usr/lang-4.0/bin/cc
 #
 # for sgi
 #
@@ -28,9 +28,9 @@
 # 
 # OPTLEVEL = 
 # OPTLEVEL = -g -v
-  OPTLEVEL = -O
+# OPTLEVEL = -O
 # OPTLEVEL = -xO5 -v
-# OPTLEVEL = -O3
+  OPTLEVEL = -O3
 # OPTLEVEL = -O4
 # CFLAGS = -Wall -g
 # CFLAGS = -Wall -pg
@@ -79,8 +79,8 @@
 #  set the ranlib environment
 #  (if ranlib is not needed, we echo the library name)
 #
-# RANLIB = ranlib
-  RANLIB = echo
+  RANLIB = ranlib
+# RANLIB = echo
 #
 #---------------------------------------------------------------------
 #
